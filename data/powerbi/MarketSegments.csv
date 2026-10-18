@@ -1,0 +1,9 @@
+market_segment,market_segment_count,market_segment_description
+Groups,19811,"Group booking, often for conferences or events"
+Online TA,56477,Booking made via an Online Travel Agent
+Direct,12606,Direct booking made by the customer
+Complementary,743,Complimentary booking with no charge
+Undefined,2,Uncategorized or undefined market segment
+Offline TA/TO,24219,Booking made via an Offline Travel Agent or Tour Operator
+Corporate,5295,"Corporate clients, business-related bookings"
+Aviation,237,Bookings made by aviation-related clients

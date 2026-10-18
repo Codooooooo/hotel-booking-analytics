@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">../data/hotel_bookings.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <AllowShareWrite>False</AllowShareWrite>
+            <FileNameEncoding>0</FileNameEncoding>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <IgnoreErrors>False</IgnoreErrors>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <FileFormatInner>0</FileFormatInner>
+            <LargeZipFiles>False</LargeZipFiles>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hotel_bookings.csv.zip
+Query=hotel_bookings.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="hotel" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="is_canceled" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="lead_time" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="arrival_date_year" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="arrival_date_month" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="arrival_date_week_number" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="arrival_date_day_of_month" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="stays_in_weekend_nights" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="stays_in_week_nights" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="adults" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="children" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="babies" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="meal" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="country" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="market_segment" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="distribution_channel" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="is_repeated_guest" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="previous_cancellations" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="previous_bookings_not_canceled" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="reserved_room_type" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="assigned_room_type" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="booking_changes" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="deposit_type" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="agent" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="company" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="days_in_waiting_list" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="customer_type" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="adr" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="required_car_parking_spaces" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="total_of_special_requests" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="reservation_status" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+            <Field name="reservation_status_date" size="254" source="File: C:\Users\chuso\Desktop\DB Project\hotel_bookings.csv.zip|||hotel_bookings.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="is_repeated_guest" selected="True" />
+            <SelectField field="customer_type" selected="True" />
+            <SelectField field="total_of_special_requests" selected="True" />
+            <SelectField field="reservation_status_date" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="270" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToString([is_repeated_guest])+&quot;_&quot;+ToString([reservation_status_date])&#10;" field="Customer_ID" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer_ID = ToString([is_repeated_guest])+"_"+ToString([reservation_status_dat...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="378" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Customer_ID" action="GroupBy" rename="Customer_ID" />
+            <SummarizeField field="total_of_special_requests" action="Count" rename="total_of_special_requests" />
+            <SummarizeField field="customer_type" action="GroupBy" rename="customer_type" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="510" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">../data/CustomerProfile.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CustomerProfile.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CustomerProfile</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6e010c27-b6e8-4f8e-b06e-826ac312fd39" />
+      <Telemetry>
+        <PreviousWorkflowId value="bf06b3d0-81af-4d30-a6b2-ce2aa1f00397" />
+        <OriginWorkflowId value="bf06b3d0-81af-4d30-a6b2-ce2aa1f00397" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

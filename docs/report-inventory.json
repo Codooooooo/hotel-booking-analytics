@@ -1,0 +1,134 @@
+[
+  {
+    "page": "ALL",
+    "visuals": [
+      {
+        "type": "lineChart",
+        "fields": [
+          "Booking.arrival_date_month",
+          "Sum(Booking.stays_in_weekend_nights)",
+          "Sum(Booking.stays_in_week_nights)"
+        ]
+      },
+      {
+        "type": "scatterChart",
+        "fields": [
+          "Booking.is_canceled",
+          "Booking.lead_time",
+          "Booking.adr"
+        ]
+      },
+      {
+        "type": "barChart",
+        "fields": [
+          "Booking.customer_type",
+          "Sum(Booking.stays_in_week_nights)",
+          "Sum(Booking.stays_in_weekend_nights)"
+        ]
+      },
+      {
+        "type": "pieChart",
+        "fields": [
+          "Booking.is_canceled",
+          "CountNonNull(Booking.Customer_ID)"
+        ]
+      },
+      {
+        "type": "advancedSlicerVisual",
+        "fields": [
+          "Booking.deposit_type"
+        ]
+      },
+      {
+        "type": "advancedSlicerVisual",
+        "fields": [
+          "Booking.hotel"
+        ]
+      },
+      {
+        "type": "advancedSlicerVisual",
+        "fields": [
+          "Booking.arrival_date_year"
+        ]
+      },
+      {
+        "type": "lineStackedColumnComboChart",
+        "fields": [
+          "Booking.market_segment",
+          "Avg(Booking.adr)",
+          "Booking.Canceled_Bookings"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "Trend 1",
+    "visuals": [
+      {
+        "type": "lineChart",
+        "fields": [
+          "Booking.arrival_date_month",
+          "Sum(Booking.stays_in_weekend_nights)",
+          "Sum(Booking.stays_in_week_nights)"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "Trend 2",
+    "visuals": [
+      {
+        "type": "scatterChart",
+        "fields": [
+          "Booking.is_canceled",
+          "Booking.lead_time",
+          "Booking.adr"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "Trend 3",
+    "visuals": [
+      {
+        "type": "barChart",
+        "fields": [
+          "Booking.customer_type",
+          "Sum(Booking.stays_in_week_nights)",
+          "Sum(Booking.stays_in_weekend_nights)"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "Trend 4",
+    "visuals": [
+      {
+        "type": "pieChart",
+        "fields": [
+          "Booking.is_canceled",
+          "CountNonNull(Booking.Customer_ID)"
+        ]
+      },
+      {
+        "type": "advancedSlicerVisual",
+        "fields": [
+          "Booking.deposit_type"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "Trend 5",
+    "visuals": [
+      {
+        "type": "lineStackedColumnComboChart",
+        "fields": [
+          "Booking.market_segment",
+          "Avg(Booking.adr)",
+          "Booking.Canceled_Bookings"
+        ]
+      }
+    ]
+  }
+]
